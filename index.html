@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Técnico en Diseño y Desarrollo de IA – Carrera Completa</title>
+<title>Técnico en Diseño y Desarrollo de IA – Estudio Completo</title>
 <style>
   :root {
     --primary: #0F2744;
@@ -16,34 +16,33 @@
     --border: #E2E8F0;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
-  header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 1.8rem 1rem; text-align: center; }
-  header h1 { font-size: 1.5rem; font-weight: 700; }
-  header p { opacity: 0.9; margin-top: 0.4rem; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; }
+  header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 1.6rem 1rem; text-align: center; }
+  header h1 { font-size: 1.45rem; font-weight: 700; }
+  header p { opacity: 0.92; margin-top: 0.35rem; font-size: 0.95rem; }
   nav { display: flex; background: white; border-bottom: 1px solid var(--border); overflow-x: auto; position: sticky; top: 0; z-index: 20; }
-  nav button { flex: 1; min-width: 110px; padding: 0.9rem 0.6rem; border: none; background: none; font-weight: 600; color: var(--secondary); cursor: pointer; border-bottom: 3px solid transparent; }
+  nav button { flex: 1; min-width: 100px; padding: 0.85rem 0.5rem; border: none; background: none; font-weight: 600; color: var(--secondary); cursor: pointer; border-bottom: 3px solid transparent; font-size: 0.9rem; }
   nav button.active { border-bottom-color: var(--accent); color: var(--primary); }
-  main { padding: 1rem; max-width: 900px; margin: 0 auto; }
-  .card { background: white; border-radius: 12px; padding: 1.3rem; margin-bottom: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid var(--border); }
-  .card h3 { color: var(--primary); margin-bottom: 0.6rem; font-size: 1.15rem; }
-  .card h4 { color: var(--secondary); margin: 0.8rem 0 0.4rem; }
-  .phase { border-left: 4px solid var(--accent); }
-  .gate { background: #EFF6FF; border-left: 4px solid var(--secondary); }
-  ul { padding-left: 1.2rem; margin: 0.4rem 0; }
-  li { margin: 0.3rem 0; }
-  .minimo { background: #F0FDF4; padding: 0.6rem; border-radius: 6px; margin: 0.5rem 0; font-size: 0.95rem; }
-  .ejemplo { background: #FEF3C7; padding: 0.6rem; border-radius: 6px; margin: 0.4rem 0; font-size: 0.92rem; }
+  main { padding: 1rem; max-width: 920px; margin: 0 auto; }
+  .card { background: white; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; box-shadow: 0 1px 6px rgba(0,0,0,0.05); border: 1px solid var(--border); }
+  .card h3 { color: var(--primary); margin-bottom: 0.5rem; }
+  .card h4 { color: var(--secondary); margin: 1rem 0 0.4rem; font-size: 1.05rem; }
+  .modulo { border-left: 3px solid var(--accent); padding-left: 0.8rem; margin: 0.8rem 0; }
+  ul { padding-left: 1.3rem; margin: 0.4rem 0; }
+  li { margin: 0.25rem 0; }
+  .box { padding: 0.7rem; border-radius: 8px; margin: 0.6rem 0; font-size: 0.95rem; }
+  .minimo { background: #ECFDF5; }
+  .ejemplo { background: #FFFBEB; }
+  .actividad { background: #EFF6FF; }
   .hidden { display: none; }
-  .progress { height: 10px; background: #E2E8F0; border-radius: 5px; margin: 0.8rem 0; overflow: hidden; }
-  .progress-bar { height: 100%; background: var(--success); width: 0%; transition: width 0.4s; }
-  button.action { background: var(--accent); color: white; border: none; padding: 0.65rem 1.1rem; border-radius: 8px; font-weight: 600; cursor: pointer; width: 100%; margin-top: 0.6rem; }
+  button.action { background: var(--accent); color: white; border: none; padding: 0.6rem 1rem; border-radius: 8px; font-weight: 600; cursor: pointer; margin-top: 0.5rem; }
   footer { text-align: center; padding: 2rem 1rem; color: #64748B; font-size: 0.8rem; }
 </style>
 </head>
 <body>
 <header>
   <h1>Técnico en Diseño y Desarrollo de Inteligencia Artificial</h1>
-  <p>Carrera completa · Modelo de Máxima Expresión · Estándar 10/10</p>
+  <p>Carrera completa para estudio · Estándares reales · Certificación</p>
 </header>
 
 <nav>
@@ -52,157 +51,97 @@
   <button onclick="show('fase2')">Fase 2</button>
   <button onclick="show('fase3')">Fase 3</button>
   <button onclick="show('fase4')">Fase 4</button>
-  <button onclick="show('rubrica')">Rúbrica</button>
-  <button onclick="show('progreso')">Progreso</button>
+  <button onclick="show('evaluacion')">Evaluación</button>
 </nav>
 
 <main>
   <section id="inicio">
     <div class="card">
+      <h3>Cómo estudiar esta carrera</h3>
+      <p>Cada fase tiene módulos, actividades prácticas, evidencias mínimas y criterios de evaluación. Debes demostrar criterio técnico, no solo completar tareas.</p>
+      <p style="margin-top:0.6rem;"><strong>Estándar de aprobación:</strong> ≥75 % + cumplir todos los mínimos del Gate. No basta con que funcione.</p>
+    </div>
+    <div class="card">
       <h3>Modelo de Máxima Expresión</h3>
-      <p>La carrera forma criterio técnico verificable. Toda evidencia debe demostrar:</p>
       <ul>
         <li>Modelo mental experto externalizado</li>
-        <li>Ciclo de diagnóstico y rediseño</li>
-        <li>UDL como sistema (múltiples formatos válidos)</li>
+        <li>Diagnóstico y rediseño</li>
+        <li>UDL como sistema</li>
         <li>Transferencia</li>
         <li>Juicio bajo incertidumbre</li>
         <li>Criterio técnico real</li>
       </ul>
     </div>
-    <div class="card">
-      <h3>Estructura</h3>
-      <p>4 Fases con Gates de progresión. Se necesita ≥75 % y cumplir los mínimos para avanzar.</p>
-    </div>
   </section>
 
   <section id="fase1" class="hidden">
-    <div class="card phase">
+    <div class="card">
       <h3>Fase 1 – Modelo Base</h3>
-      <h4>Objetivo</h4>
-      <p>Construir y externalizar un modelo inicial de sistemas de IA inclusivos.</p>
-      <h4>Módulos</h4>
-      <ul>
-        <li>Python para IA</li>
-        <li>Fundamentos de IA y Design Thinking</li>
-        <li>UDL y Accesibilidad</li>
-      </ul>
-      <div class="minimo"><strong>Gate 1 – Mínimo:</strong> Modelo externalizado + decisión de diseño justificada + aplicación explícita de accesibilidad.</div>
-      <div class="ejemplo"><strong>Aceptable:</strong> “Elegí esta estructura porque permite que alguien con menos experiencia técnica entienda el flujo.”</div>
-      <div class="ejemplo"><strong>No aceptable:</strong> Código sin ninguna justificación de diseño o inclusión.</div>
+      <div class="modulo">
+        <h4>Módulo 1.1 – Python para IA</h4>
+        <p><strong>Objetivo:</strong> Manipular datos y escribir código claro y reproducible.</p>
+        <p><strong>Material:</strong> Documentación oficial de Python y Pandas. Notebooks de práctica.</p>
+        <div class="actividad"><strong>Actividad:</strong> Escribe un script que limpie y resuma un dataset pequeño. Explica tus decisiones de código.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 1.2 – Fundamentos de IA y Design Thinking</h4>
+        <p><strong>Objetivo:</strong> Definir problemas centrados en el usuario.</p>
+        <div class="actividad"><strong>Actividad:</strong> Define un problema real y justifica por qué la IA es una solución adecuada.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 1.3 – UDL y Accesibilidad</h4>
+        <p><strong>Objetivo:</strong> Aplicar principios de diseño inclusivo.</p>
+        <div class="actividad"><strong>Actividad:</strong> Revisa una interfaz o salida y propón mejoras de accesibilidad.</div>
+      </div>
+      <div class="box minimo"><strong>Gate 1 – Evidencia mínima:</strong> Código o prototipo funcional + modelo externalizado + decisión de diseño justificada + mención explícita de accesibilidad.</div>
+      <div class="box ejemplo"><strong>Ejemplo aceptable:</strong> “Elegí esta estructura porque permite que alguien con menos experiencia técnica entienda el flujo sin perder funcionalidad.”</div>
     </div>
   </section>
 
   <section id="fase2" class="hidden">
-    <div class="card phase">
+    <div class="card">
       <h3>Fase 2 – Diagnóstico</h3>
-      <h4>Objetivo</h4>
-      <p>Confrontar fallos reales de modelos y aprender a diagnosticarlos y corregirlos.</p>
-      <h4>Módulos</h4>
-      <ul>
-        <li>Machine Learning supervisado y no supervisado</li>
-        <li>Diagnóstico y visualización de errores</li>
-        <li>Ética y sesgos</li>
-      </ul>
-      <div class="minimo"><strong>Gate 2 – Mínimo:</strong> Fallo documentado + diagnóstico de la causa + corrección o rediseño fundamentado.</div>
-      <div class="ejemplo"><strong>Aceptable:</strong> “El modelo fallaba en la clase minoritaria por desbalanceo; apliqué sobremuestreo y mejoró el recall.”</div>
-      <div class="ejemplo"><strong>No aceptable:</strong> Solo métricas finales sin explicar ningún fallo.</div>
+      <div class="modulo">
+        <h4>Módulo 2.1 – Machine Learning</h4>
+        <p><strong>Objetivo:</strong> Entrenar y evaluar modelos con métricas adecuadas.</p>
+        <div class="actividad"><strong>Actividad:</strong> Entrena un modelo, reporta métricas y justifica por qué son las correctas para el problema.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 2.2 – Diagnóstico de errores</h4>
+        <p><strong>Objetivo:</strong> Identificar por qué un modelo falla.</p>
+        <div class="actividad"><strong>Actividad:</strong> Analiza los errores de tu modelo y documenta al menos una causa concreta.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 2.3 – Ética y sesgos</h4>
+        <p><strong>Objetivo:</strong> Detectar y documentar sesgos.</p>
+        <div class="actividad"><strong>Actividad:</strong> Identifica un posible sesgo en tus datos o resultados y propón una mitigación o justificación.</div>
+      </div>
+      <div class="box minimo"><strong>Gate 2 – Evidencia mínima:</strong> Modelo con métricas + fallo documentado + diagnóstico de causa + corrección o rediseño fundamentado.</div>
+      <div class="box ejemplo"><strong>Ejemplo aceptable:</strong> “El modelo fallaba en la clase minoritaria por desbalanceo. Apliqué sobremuestreo y el recall de esa clase subió de 0.42 a 0.71.”</div>
     </div>
   </section>
 
   <section id="fase3" class="hidden">
-    <div class="card phase">
+    <div class="card">
       <h3>Fase 3 – Extensión</h3>
-      <h4>Objetivo</h4>
-      <p>Extender el modelo a sistemas generativos y agentes bajo restricciones reales.</p>
-      <h4>Módulos</h4>
-      <ul>
-        <li>LLMs y Prompting</li>
-        <li>RAG</li>
-        <li>Agentes</li>
-      </ul>
-      <div class="minimo"><strong>Gate 3 – Mínimo:</strong> Arquitectura justificada bajo al menos dos restricciones reales + limitaciones reconocidas.</div>
+      <div class="modulo">
+        <h4>Módulo 3.1 – LLMs y Prompting</h4>
+        <p><strong>Objetivo:</strong> Diseñar y evaluar prompts estructurados.</p>
+        <div class="actividad"><strong>Actividad:</strong> Crea un prompt que resuelva una tarea concreta y evalúa sus limitaciones.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 3.2 – RAG</h4>
+        <p><strong>Objetivo:</strong> Implementar y entender las limitaciones de un sistema RAG.</p>
+        <div class="actividad"><strong>Actividad:</strong> Construye un RAG simple y documenta dos casos donde falla.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 3.3 – Agentes</h4>
+        <p><strong>Objetivo:</strong> Diseñar una arquitectura de agente básica bajo restricciones.</p>
+        <div class="actividad"><strong>Actividad:</strong> Propón una arquitectura de agente y justifica por qué elegiste esa y no otra.</div>
+      </div>
+      <div class="box minimo"><strong>Gate 3 – Evidencia mínima:</strong> Prototipo funcional + justificación de arquitectura bajo restricciones reales + al menos dos limitaciones documentadas.</div>
     </div>
   </section>
 
   <section id="fase4" class="hidden">
-    <div class="card phase">
-      <h3>Fase 4 – Capstone</h3>
-      <h4>Objetivo</h4>
-      <p>Ejercer juicio bajo incertidumbre y pensamiento de ciclo de vida.</p>
-      <h4>Módulos</h4>
-      <ul>
-        <li>MLOps aplicado</li>
-        <li>UX para IA</li>
-        <li>Capstone</li>
-      </ul>
-      <div class="minimo"><strong>Capstone – Mínimo:</strong> Sistema desplegado + elemento de producción real + defensa de decisiones con información incompleta + análisis de límites + checklists con reflexión.</div>
-      <div class="ejemplo"><strong>Producción real aceptable:</strong> “Logs básicos de errores + repositorio con al menos dos versiones comentadas del modelo o prompt.”</div>
-      <div class="ejemplo"><strong>No aceptable:</strong> Solo enlace de despliegue sin registro, versión o proceso documentado.</div>
-    </div>
-  </section>
-
-  <section id="rubrica" class="hidden">
-    <div class="card">
-      <h3>Rúbrica (Gates y Capstone)</h3>
-      <ul>
-        <li><strong>Criterio técnico y diagnóstico (40 %)</strong>: Explica por qué funciona o falla y qué decisión tomó.</li>
-        <li><strong>Modelo mental y justificación (30 %)</strong>: El modelo mental es visible y usable.</li>
-        <li><strong>Cumplimiento de mínimos (30 %)</strong>: Incluye todos los elementos exigidos.</li>
-      </ul>
-      <p style="margin-top:0.8rem;"><strong>Escala:</strong> 90-100 excelente · 75-89 suficiente · &lt;75 no aprueba.</p>
-      <p style="margin-top:0.6rem;"><strong>Ponderación por fase:</strong> 80 % actividades técnicas + Gate · 20 % Método Mental.</p>
-    </div>
-    <div class="card">
-      <h3>Método Mental</h3>
-      <p>Quizzes de aplicación + entregas Feynman + reflexiones. Se evalúa por calidad del modelo mental, no por completación.</p>
-    </div>
-  </section>
-
-  <section id="progreso" class="hidden">
-    <div class="card">
-      <h3>Tu progreso</h3>
-      <p>Gates completados: <strong id="count">0</strong> / 4</p>
-      <div class="progress"><div class="progress-bar" id="bar"></div></div>
-      <p id="msg" style="color:var(--success); font-weight:600;">Comienza por la Fase 1</p>
-    </div>
-    <div class="card gate">
-      <h4>Marcar Gates</h4>
-      <button class="action" onclick="completar(1)">Aprobar Gate 1</button>
-      <button class="action" onclick="completar(2)">Aprobar Gate 2</button>
-      <button class="action" onclick="completar(3)">Aprobar Gate 3</button>
-      <button class="action" onclick="completar(4)">Aprobar Capstone</button>
-    </div>
-  </section>
-</main>
-
-<footer>
-  Carrera completa · Técnico en Diseño y Desarrollo de Inteligencia Artificial
-</footer>
-
-<script>
-let completed = [false, false, false, false];
-
-function show(id) {
-  document.querySelectorAll('main > section').forEach(s => s.classList.add('hidden'));
-  document.getElementById(id).classList.remove('hidden');
-  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
-}
-
-function completar(n) {
-  completed[n-1] = true;
-  actualizar();
-  alert('Gate ' + n + ' marcado como aprobado');
-}
-
-function actualizar() {
-  const c = completed.filter(Boolean).length;
-  document.getElementById('count').textContent = c;
-  document.getElementById('bar').style.width = (c / 4 * 100) + '%';
-  const msgs = ['Comienza por la Fase 1', 'Gate 1 aprobado', 'Gate 2 aprobado', 'Gate 3 aprobado', 'Carrera completada'];
-  document.getElementById('msg').textContent = msgs[c];
-}
-</script>
-</body>
-</html>
+    <div class=
