@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Técnico en Diseño y Desarrollo de IA</title>
+<title>Técnico en Diseño y Desarrollo de IA – Carrera Completa</title>
 <style>
   :root {
     --primary: #0F2744;
@@ -13,156 +13,149 @@
     --card: #FFFFFF;
     --success: #10B981;
     --text: #1E293B;
+    --border: #E2E8F0;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: system-ui, -apple-system, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.5;
-  }
-  header {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: white;
-    padding: 1.5rem 1rem;
-    text-align: center;
-  }
-  header h1 { font-size: 1.4rem; font-weight: 700; }
-  header p { opacity: 0.9; font-size: 0.95rem; margin-top: 0.3rem; }
-  nav {
-    display: flex;
-    background: white;
-    border-bottom: 1px solid #E2E8F0;
-    overflow-x: auto;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
-  nav button {
-    flex: 1;
-    min-width: 100px;
-    padding: 0.9rem 0.5rem;
-    border: none;
-    background: none;
-    font-weight: 600;
-    color: var(--secondary);
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
-  }
-  nav button.active {
-    border-bottom-color: var(--accent);
-    color: var(--primary);
-  }
-  main { padding: 1rem; max-width: 800px; margin: 0 auto; }
-  .card {
-    background: white;
-    border-radius: 12px;
-    padding: 1.25rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  }
-  .card h3 { color: var(--primary); margin-bottom: 0.5rem; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 1.8rem 1rem; text-align: center; }
+  header h1 { font-size: 1.5rem; font-weight: 700; }
+  header p { opacity: 0.9; margin-top: 0.4rem; }
+  nav { display: flex; background: white; border-bottom: 1px solid var(--border); overflow-x: auto; position: sticky; top: 0; z-index: 20; }
+  nav button { flex: 1; min-width: 110px; padding: 0.9rem 0.6rem; border: none; background: none; font-weight: 600; color: var(--secondary); cursor: pointer; border-bottom: 3px solid transparent; }
+  nav button.active { border-bottom-color: var(--accent); color: var(--primary); }
+  main { padding: 1rem; max-width: 900px; margin: 0 auto; }
+  .card { background: white; border-radius: 12px; padding: 1.3rem; margin-bottom: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid var(--border); }
+  .card h3 { color: var(--primary); margin-bottom: 0.6rem; font-size: 1.15rem; }
+  .card h4 { color: var(--secondary); margin: 0.8rem 0 0.4rem; }
   .phase { border-left: 4px solid var(--accent); }
-  .gate { background: #EFF6FF; }
-  .progress {
-    height: 10px;
-    background: #E2E8F0;
-    border-radius: 5px;
-    margin: 0.8rem 0;
-    overflow: hidden;
-  }
-  .progress-bar {
-    height: 100%;
-    background: var(--success);
-    width: 0%;
-    transition: width 0.4s;
-  }
-  button.action {
-    background: var(--accent);
-    color: white;
-    border: none;
-    padding: 0.7rem 1.2rem;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 0.5rem;
-  }
+  .gate { background: #EFF6FF; border-left: 4px solid var(--secondary); }
+  ul { padding-left: 1.2rem; margin: 0.4rem 0; }
+  li { margin: 0.3rem 0; }
+  .minimo { background: #F0FDF4; padding: 0.6rem; border-radius: 6px; margin: 0.5rem 0; font-size: 0.95rem; }
+  .ejemplo { background: #FEF3C7; padding: 0.6rem; border-radius: 6px; margin: 0.4rem 0; font-size: 0.92rem; }
   .hidden { display: none; }
-  .status { font-size: 0.85rem; font-weight: 600; color: var(--success); }
-  footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    color: #64748B;
-    font-size: 0.8rem;
-  }
+  .progress { height: 10px; background: #E2E8F0; border-radius: 5px; margin: 0.8rem 0; overflow: hidden; }
+  .progress-bar { height: 100%; background: var(--success); width: 0%; transition: width 0.4s; }
+  button.action { background: var(--accent); color: white; border: none; padding: 0.65rem 1.1rem; border-radius: 8px; font-weight: 600; cursor: pointer; width: 100%; margin-top: 0.6rem; }
+  footer { text-align: center; padding: 2rem 1rem; color: #64748B; font-size: 0.8rem; }
 </style>
 </head>
 <body>
 <header>
-  <h1>Técnico en Diseño y Desarrollo de IA</h1>
-  <p>App de la carrera · Modelo de Máxima Expresión</p>
+  <h1>Técnico en Diseño y Desarrollo de Inteligencia Artificial</h1>
+  <p>Carrera completa · Modelo de Máxima Expresión · Estándar 10/10</p>
 </header>
 
 <nav>
-  <button class="active" onclick="show('home')">Inicio</button>
-  <button onclick="show('fases')">Fases</button>
-  <button onclick="show('gates')">Gates</button>
+  <button class="active" onclick="show('inicio')">Inicio</button>
+  <button onclick="show('fase1')">Fase 1</button>
+  <button onclick="show('fase2')">Fase 2</button>
+  <button onclick="show('fase3')">Fase 3</button>
+  <button onclick="show('fase4')">Fase 4</button>
+  <button onclick="show('rubrica')">Rúbrica</button>
   <button onclick="show('progreso')">Progreso</button>
 </nav>
 
 <main>
-  <section id="home">
+  <section id="inicio">
     <div class="card">
-      <h3>Bienvenido</h3>
-      <p>Carrera organizada por construcción de criterio técnico, no por contenidos.</p>
-      <p style="margin-top:0.8rem;"><strong>4 Fases · Gates de progresión · Capstone con producción real</strong></p>
+      <h3>Modelo de Máxima Expresión</h3>
+      <p>La carrera forma criterio técnico verificable. Toda evidencia debe demostrar:</p>
+      <ul>
+        <li>Modelo mental experto externalizado</li>
+        <li>Ciclo de diagnóstico y rediseño</li>
+        <li>UDL como sistema (múltiples formatos válidos)</li>
+        <li>Transferencia</li>
+        <li>Juicio bajo incertidumbre</li>
+        <li>Criterio técnico real</li>
+      </ul>
     </div>
     <div class="card">
-      <h3>Modelo</h3>
-      <p>Modelo mental experto · Diagnóstico y rediseño · UDL como sistema · Transferencia · Juicio bajo incertidumbre · Criterio técnico</p>
+      <h3>Estructura</h3>
+      <p>4 Fases con Gates de progresión. Se necesita ≥75 % y cumplir los mínimos para avanzar.</p>
     </div>
   </section>
 
-  <section id="fases" class="hidden">
+  <section id="fase1" class="hidden">
     <div class="card phase">
       <h3>Fase 1 – Modelo Base</h3>
-      <p>Construyes y externalizas tu modelo inicial de sistemas de IA inclusivos.</p>
-    </div>
-    <div class="card phase">
-      <h3>Fase 2 – Diagnóstico</h3>
-      <p>Enfrentas fallos reales y aprendes a diagnosticarlos y corregirlos.</p>
-    </div>
-    <div class="card phase">
-      <h3>Fase 3 – Extensión</h3>
-      <p>Llevas tu modelo a sistemas generativos y agentes bajo restricciones.</p>
-    </div>
-    <div class="card phase">
-      <h3>Fase 4 – Capstone</h3>
-      <p>Ejercitas juicio bajo incertidumbre y pensamiento de ciclo de vida.</p>
+      <h4>Objetivo</h4>
+      <p>Construir y externalizar un modelo inicial de sistemas de IA inclusivos.</p>
+      <h4>Módulos</h4>
+      <ul>
+        <li>Python para IA</li>
+        <li>Fundamentos de IA y Design Thinking</li>
+        <li>UDL y Accesibilidad</li>
+      </ul>
+      <div class="minimo"><strong>Gate 1 – Mínimo:</strong> Modelo externalizado + decisión de diseño justificada + aplicación explícita de accesibilidad.</div>
+      <div class="ejemplo"><strong>Aceptable:</strong> “Elegí esta estructura porque permite que alguien con menos experiencia técnica entienda el flujo.”</div>
+      <div class="ejemplo"><strong>No aceptable:</strong> Código sin ninguna justificación de diseño o inclusión.</div>
     </div>
   </section>
 
-  <section id="gates" class="hidden">
-    <div class="card gate">
-      <h3>Gate 1</h3>
-      <p>Modelo + decisión justificada + accesibilidad</p>
-      <button class="action" onclick="completar(1)">Marcar como aprobado</button>
+  <section id="fase2" class="hidden">
+    <div class="card phase">
+      <h3>Fase 2 – Diagnóstico</h3>
+      <h4>Objetivo</h4>
+      <p>Confrontar fallos reales de modelos y aprender a diagnosticarlos y corregirlos.</p>
+      <h4>Módulos</h4>
+      <ul>
+        <li>Machine Learning supervisado y no supervisado</li>
+        <li>Diagnóstico y visualización de errores</li>
+        <li>Ética y sesgos</li>
+      </ul>
+      <div class="minimo"><strong>Gate 2 – Mínimo:</strong> Fallo documentado + diagnóstico de la causa + corrección o rediseño fundamentado.</div>
+      <div class="ejemplo"><strong>Aceptable:</strong> “El modelo fallaba en la clase minoritaria por desbalanceo; apliqué sobremuestreo y mejoró el recall.”</div>
+      <div class="ejemplo"><strong>No aceptable:</strong> Solo métricas finales sin explicar ningún fallo.</div>
     </div>
-    <div class="card gate">
-      <h3>Gate 2</h3>
-      <p>Fallo + diagnóstico + corrección</p>
-      <button class="action" onclick="completar(2)">Marcar como aprobado</button>
+  </section>
+
+  <section id="fase3" class="hidden">
+    <div class="card phase">
+      <h3>Fase 3 – Extensión</h3>
+      <h4>Objetivo</h4>
+      <p>Extender el modelo a sistemas generativos y agentes bajo restricciones reales.</p>
+      <h4>Módulos</h4>
+      <ul>
+        <li>LLMs y Prompting</li>
+        <li>RAG</li>
+        <li>Agentes</li>
+      </ul>
+      <div class="minimo"><strong>Gate 3 – Mínimo:</strong> Arquitectura justificada bajo al menos dos restricciones reales + limitaciones reconocidas.</div>
     </div>
-    <div class="card gate">
-      <h3>Gate 3</h3>
-      <p>Arquitectura bajo restricciones + límites</p>
-      <button class="action" onclick="completar(3)">Marcar como aprobado</button>
+  </section>
+
+  <section id="fase4" class="hidden">
+    <div class="card phase">
+      <h3>Fase 4 – Capstone</h3>
+      <h4>Objetivo</h4>
+      <p>Ejercer juicio bajo incertidumbre y pensamiento de ciclo de vida.</p>
+      <h4>Módulos</h4>
+      <ul>
+        <li>MLOps aplicado</li>
+        <li>UX para IA</li>
+        <li>Capstone</li>
+      </ul>
+      <div class="minimo"><strong>Capstone – Mínimo:</strong> Sistema desplegado + elemento de producción real + defensa de decisiones con información incompleta + análisis de límites + checklists con reflexión.</div>
+      <div class="ejemplo"><strong>Producción real aceptable:</strong> “Logs básicos de errores + repositorio con al menos dos versiones comentadas del modelo o prompt.”</div>
+      <div class="ejemplo"><strong>No aceptable:</strong> Solo enlace de despliegue sin registro, versión o proceso documentado.</div>
     </div>
-    <div class="card gate">
-      <h3>Capstone</h3>
-      <p>Desplegado + producción real + defensa + ciclo de vida</p>
-      <button class="action" onclick="completar(4)">Marcar como aprobado</button>
+  </section>
+
+  <section id="rubrica" class="hidden">
+    <div class="card">
+      <h3>Rúbrica (Gates y Capstone)</h3>
+      <ul>
+        <li><strong>Criterio técnico y diagnóstico (40 %)</strong>: Explica por qué funciona o falla y qué decisión tomó.</li>
+        <li><strong>Modelo mental y justificación (30 %)</strong>: El modelo mental es visible y usable.</li>
+        <li><strong>Cumplimiento de mínimos (30 %)</strong>: Incluye todos los elementos exigidos.</li>
+      </ul>
+      <p style="margin-top:0.8rem;"><strong>Escala:</strong> 90-100 excelente · 75-89 suficiente · &lt;75 no aprueba.</p>
+      <p style="margin-top:0.6rem;"><strong>Ponderación por fase:</strong> 80 % actividades técnicas + Gate · 20 % Método Mental.</p>
+    </div>
+    <div class="card">
+      <h3>Método Mental</h3>
+      <p>Quizzes de aplicación + entregas Feynman + reflexiones. Se evalúa por calidad del modelo mental, no por completación.</p>
     </div>
   </section>
 
@@ -171,13 +164,20 @@
       <h3>Tu progreso</h3>
       <p>Gates completados: <strong id="count">0</strong> / 4</p>
       <div class="progress"><div class="progress-bar" id="bar"></div></div>
-      <p id="msg" class="status">Comienza por la Fase 1</p>
+      <p id="msg" style="color:var(--success); font-weight:600;">Comienza por la Fase 1</p>
+    </div>
+    <div class="card gate">
+      <h4>Marcar Gates</h4>
+      <button class="action" onclick="completar(1)">Aprobar Gate 1</button>
+      <button class="action" onclick="completar(2)">Aprobar Gate 2</button>
+      <button class="action" onclick="completar(3)">Aprobar Gate 3</button>
+      <button class="action" onclick="completar(4)">Aprobar Capstone</button>
     </div>
   </section>
 </main>
 
 <footer>
-  App de la carrera Técnico en Diseño y Desarrollo de IA
+  Carrera completa · Técnico en Diseño y Desarrollo de Inteligencia Artificial
 </footer>
 
 <script>
@@ -193,21 +193,15 @@ function show(id) {
 function completar(n) {
   completed[n-1] = true;
   actualizar();
-  alert('Gate marcado como aprobado');
+  alert('Gate ' + n + ' marcado como aprobado');
 }
 
 function actualizar() {
   const c = completed.filter(Boolean).length;
   document.getElementById('count').textContent = c;
   document.getElementById('bar').style.width = (c / 4 * 100) + '%';
-  const mensajes = [
-    'Comienza por la Fase 1',
-    'Gate 1 aprobado',
-    'Gate 2 aprobado',
-    'Gate 3 aprobado',
-    'Carrera completada'
-  ];
-  document.getElementById('msg').textContent = mensajes[c];
+  const msgs = ['Comienza por la Fase 1', 'Gate 1 aprobado', 'Gate 2 aprobado', 'Gate 3 aprobado', 'Carrera completada'];
+  document.getElementById('msg').textContent = msgs[c];
 }
 </script>
 </body>
