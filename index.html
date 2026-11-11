@@ -144,4 +144,52 @@
   </section>
 
   <section id="fase4" class="hidden">
-    <div class=
+    <div class="card">
+      <h3>Fase 4 – Capstone</h3>
+      <div class="modulo">
+        <h4>Módulo 4.1 – MLOps aplicado</h4>
+        <p><strong>Objetivo:</strong> Incluir al menos un elemento de producción real.</p>
+        <div class="actividad"><strong>Actividad:</strong> Agrega versionado, logs o un pipeline mínimo documentado a tu sistema.</div>
+      </div>
+      <div class="modulo">
+        <h4>Módulo 4.2 – UX para IA</h4>
+        <p><strong>Objetivo:</strong> Hacer el sistema transparente y usable.</p>
+        <div class="actividad"><strong>Actividad:</strong> Documenta cómo el usuario entiende qué hace el sistema y sus límites.</div>
+      </div>
+      <div class="box minimo"><strong>Capstone – Evidencia mínima:</strong> Sistema desplegado + elemento de producción real (logs, versionado o pipeline) + defensa de al menos una decisión tomada con información incompleta + análisis de límites + checklists ético y de accesibilidad con reflexión + sección “Qué cambiaría si lo mantuviera 6 meses”.</div>
+      <div class="box ejemplo"><strong>Producción real aceptable:</strong> “El sistema escribe logs de errores en un archivo y el modelo/prompt está en un repositorio con dos versiones comentadas.”</div>
+    </div>
+  </section>
+
+  <section id="evaluacion" class="hidden">
+    <div class="card">
+      <h3>Rúbrica oficial</h3>
+      <ul>
+        <li><strong>40 % – Criterio técnico y diagnóstico:</strong> Explica por qué funciona o falla y qué decisión tomó.</li>
+        <li><strong>30 % – Modelo mental y justificación:</strong> El razonamiento es visible y usable.</li>
+        <li><strong>30 % – Cumplimiento de mínimos:</strong> Están todos los elementos exigidos.</li>
+      </ul>
+      <p style="margin-top:0.8rem;"><strong>Escala:</strong> 90-100 excelente · 75-89 suficiente · &lt;75 no aprueba (aunque funcione).</p>
+      <p style="margin-top:0.5rem;"><strong>Ponderación:</strong> 80 % actividades técnicas + Gate · 20 % Método Mental (Feynman y reflexiones de calidad).</p>
+    </div>
+    <div class="card">
+      <h3>Para certificarte</h3>
+      <p>Debes aprobar los 4 Gates cumpliendo los mínimos y demostrando criterio real. El Capstone es la evidencia final de juicio bajo incertidumbre y pensamiento de ciclo de vida.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Carrera completa para estudio y certificación · Técnico en Diseño y Desarrollo de IA
+</footer>
+
+<script>
+function show(id) {
+  document.querySelectorAll('main > section').forEach(s => s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
